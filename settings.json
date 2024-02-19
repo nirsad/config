@@ -1,0 +1,97 @@
+{
+     "files.autoSave": "afterDelay",
+     "[python]": {
+         "editor.formatOnType": true
+     },
+     "vim.smartRelativeLine": true,
+     "vim.highlightedyank.enable": true,
+     "vim.highlightedyank.duration": 200,
+     "vim.normalModeKeyBindings": [
+         {
+         "before":["<C-d>"],
+         "after": ["<C-d>", "z", "z"]
+         },
+         {
+         "before":["<C-u>"],
+         "after": ["<C-u>", "z", "z"]
+         },
+         {
+         "before":["j"],
+         "after": ["j", "z", "z"]
+         },
+         {
+         "before":["k"],
+         "after": ["k", "z", "z"]
+         },
+         {
+         "before":["n"],
+         "after": ["n", "z", "z"]
+         },
+         {
+         "before":["N"],
+         "after": ["N", "z", "z"]
+         },
+         {
+         "before":["<leader>", "p"],
+         "after": ["p", "g", "v", "y"]
+         },
+         {
+         "before":["g", "y"],
+         "commands": [
+             "editor.action.revealDefinition"
+         ]},
+         {
+         "before":["g", "h"],
+         "commands": [
+             "editor.action.showDefinitionPreviewHover"
+         ]},
+ //        {
+ //        "before":["o"],
+ //        "after": ["O", "<Esc>", "j"]
+ //        },
+ //        {
+ //        "before":["O"],
+ //        "after": ["O", "<Esc>", "j"]
+     ],
+     // "vim.normalModeKeyBindingsNonRecursive": [
+     //     {
+     //     "before":["t"],
+     //     "after": ["<leader>", "<leader>", "w"]
+     //     },
+     //     {
+     //     "before":["T"],
+     //     "after": ["<leader>", "<leader>", "b"]
+     //     }
+     // ],
+     "vim.visualModeKeyBindings": [
+ 
+         {
+         "before":["j"],
+         "after": ["j", "z", "z"]
+         },
+         {
+         "before":["k"],
+         "after": ["k", "z", "z"]
+         },
+         {
+         "before":["<leader>", "p"],
+         "after": ["p", "g", "v", "y"]
+         },
+     ],
+     // "vim.visualModeKeyBindingsNonRecursive": [
+     //     {
+     //     "before":["t"],
+     //     "after": ["<leader>", "<leader>", "w"]
+     //     },
+     //     {
+     //     "before":["T"],
+     //     "after": ["<leader>", "<leader>", "b"]
+     //     }
+     // ],
+     "vim.leader": " ",
+     "editor.accessibilitySupport": "off",
+     "vim.handleKeys": {
+         "<C-p>": false,
+     },
+     "workbench.startupEditor": "none",
+ }

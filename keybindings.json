@@ -1,0 +1,83 @@
+ // Place your key bindings in this file to override the defaultsauto[]
+ [
+     {
+         "key": "ctrl+shift+a",
+         "command": "editor.action.transformToUppercase"
+     },
+     {
+         "key": "ctrl+'",
+         "command": "workbench.action.terminal.focusNext",
+         "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+     },
+     {
+         "key": "ctrl+pagedown",
+         "command": "-workbench.action.terminal.focusNext",
+         "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+     },
+     {
+         "key": "ctrl+shift+d",
+         "command": "workbench.action.closeActiveEditor"
+     },
+     {
+         "key": "ctrl+f4",
+         "command": "-workbench.action.closeActiveEditor"
+     },
+     {
+         "key": "shift+5",
+         "command": "explorer.newFile",
+         "when": "filesExplorerFocus"
+     },
+     {
+         "key": "shift+6",
+         "command": "explorer.newFolder",
+         "when": "filesExplorerFocus"
+     },
+     {
+         "key": "r",
+         "command": "renameFile",
+         "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+     },
+     {
+         "key": "f2",
+         "command": "-renameFile",
+         "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+     },
+     {
+         "key": "shift+d",
+         "command": "deleteFile",
+         "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+     },
+     {
+         "key": "shift+delete",
+         "command": "-deleteFile",
+         "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+     },
+     {
+         "key": "ctrl+shift+v",
+         "command": "-markdown.showPreview",
+         "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+     },
+     {
+         "key": "ctrl+shift+v",
+         "command": "markdown.showPreviewToSide",
+         "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+     },
+     {
+         "key": "ctrl+k v",
+         "command": "-markdown.showPreviewToSide",
+         "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+     },
+     {
+         "key": "ctrl+shift+p",
+         "command": "workbench.action.openRecent"
+     },
+     {
+         "key": "ctrl+r",
+         "command": "-workbench.action.openRecent"
+     },
+     {
+         "key": "ctrl+shift+p",
+         "command": "-workbench.action.showCommands"
+     }
+ ]
+
